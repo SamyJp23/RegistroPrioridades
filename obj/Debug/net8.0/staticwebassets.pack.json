@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Aplicada\\RegistroPrioridades\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Prioridad.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Prioridad.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Aplicada\\RegistroPrioridades\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Aplicada\\RegistroPrioridades\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Aplicada\\RegistroPrioridades\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Aplicada\\RegistroPrioridades\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Prioridad.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Prioridad.props",
+      "PackagePath": "build\\Prioridad.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Prioridad.props",
+      "PackagePath": "buildMultiTargeting\\Prioridad.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Prioridad.props",
+      "PackagePath": "buildTransitive\\Prioridad.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
