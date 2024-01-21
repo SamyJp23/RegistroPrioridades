@@ -15,7 +15,7 @@ builder.Services.AddRazorComponents()
       //Contexto
       builder.Services.AddDbContext<ClienteContext>(Options => Options.UseSqlite(ConStr));
       //BLL
-      builder.Services.AddScoped<PrioridadesBLL>();
+     // builder.Services.AddScoped<PrioridadesBLL>();
 }
 var app = builder.Build();
 
