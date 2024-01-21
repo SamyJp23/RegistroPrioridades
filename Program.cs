@@ -1,9 +1,10 @@
 using Microsoft.Extensions.Options;
 using Prioridad.Components;
-using Prioridad.DAL;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Components.Web;
-using Prioridad.BLL;
+using RegistroPrioridades;
+
 var builder = WebApplication.CreateBuilder(args);
 {
 // Add services to the container.
@@ -12,7 +13,7 @@ builder.Services.AddRazorComponents()
        //Constructor
     var ConStr = builder.Configuration.GetConnectionString("ConStr");
       //Contexto
-      builder.Services.AddDbContext<PrioridadContext>(Options => Options.UseSqlite(ConStr));
+      builder.Services.AddDbContext<ClienteContext>(Options => Options.UseSqlite(ConStr));
       //BLL
       builder.Services.AddScoped<PrioridadesBLL>();
 }
