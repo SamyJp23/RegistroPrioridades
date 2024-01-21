@@ -12,5 +12,5 @@ public class ClienteContext : DbContext
     public ClienteContext(DbContextOptions<ClienteContext>Options)
     : base(Options){}
 
-    DbSet<Clientes> Clientes{get;set;}
+    public DbSet<Clientes> Clientes{get;set;}
 }
