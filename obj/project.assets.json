@@ -2564,7 +2564,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Samuel\\.nuget\\packages\\": {}
+    "C:\\Users\\Samy Javier\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2572,11 +2572,11 @@
       "projectUniqueName": "C:\\Aplicada\\RegistroPrioridades\\Prioridad.csproj",
       "projectName": "Prioridad",
       "projectPath": "C:\\Aplicada\\RegistroPrioridades\\Prioridad.csproj",
-      "packagesPath": "C:\\Users\\Samuel\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Samy Javier\\.nuget\\packages\\",
       "outputPath": "C:\\Aplicada\\RegistroPrioridades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Samuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Samy Javier\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
