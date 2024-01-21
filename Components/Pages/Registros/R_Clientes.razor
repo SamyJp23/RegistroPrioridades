@@ -1,6 +1,7 @@
 ﻿@page "/cliente"
-@page "/cliente{ClienteId:int}"
+
 @inject ClientesBLL ClientesBLL
+@rendermode InteractiveServer
 
 
 <EditForm Model= "cliente" OnValidSubmit="Guardar">
