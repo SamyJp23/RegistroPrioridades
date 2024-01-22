@@ -4,12 +4,19 @@ using Prioridad.Components;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Components.Web;
 using RegistroPrioridades;
+using Radzen;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 
 var builder = WebApplication.CreateBuilder(args);
 {
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+    
+    
+
+
        //Constructor
     var ConStr = builder.Configuration.GetConnectionString("ConStr");
       //Contexto

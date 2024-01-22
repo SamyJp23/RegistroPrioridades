@@ -125,3 +125,5 @@ C:\Aplicada\RegistroPrioridades\obj\Debug\net8.0\refint\Prioridad.dll
 C:\Aplicada\RegistroPrioridades\obj\Debug\net8.0\Prioridad.pdb
 C:\Aplicada\RegistroPrioridades\obj\Debug\net8.0\Prioridad.genruntimeconfig.cache
 C:\Aplicada\RegistroPrioridades\obj\Debug\net8.0\ref\Prioridad.dll
+C:\Aplicada\RegistroPrioridades\bin\Debug\net8.0\Radzen.Blazor.dll
+C:\Aplicada\RegistroPrioridades\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll

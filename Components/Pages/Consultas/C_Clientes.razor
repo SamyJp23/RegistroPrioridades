@@ -1,0 +1,72 @@
+@page "/TablaCliente"
+@inject ClientesBLL ClientesBLL
+
+
+<EditForm Model="list">
+
+    <div class="container">
+        <div class="card shadow-lg">
+            <div class="card-header">
+                <h4>Consultas de Clientes</h4>
+            </div>
+
+            <div class="card-body">
+                <div class="input-group mb-3">
+                    <InputText @bind-Value="Nombre" class="form-control" aria-describedby="buscarButton" />
+                    <button @onclick="Buscar" class="btn btn-outline-primary" type="button" id="buscarButton">
+                        <i class="oi oi-magnifying-glass" />
+                    </button>
+                </div>
+
+                 <table class="table table-responsive table-condensed table-bordered table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>ClineteId</th>
+                            <th>Nombre</th>
+                            <th>Tel&eacutefono</th>
+                            <th>Celular</th>
+                            <th>Rnc</th>
+                            <th>Email</th>
+                            <th>Dirreci&oacuten</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var cliente in list)
+                        {
+                            <tr>
+                                <td>@cliente.IdCliente</td>
+                                <td>@cliente.Nombres</td>
+                                <td>@cliente.Telefono</td>
+                                <td>@cliente.Celular</td>
+                                <td>@cliente.Rnc</td>
+                                <td>@cliente.Email</td>
+                                <td>@cliente.Direccion</td>
+                                <td><a class="btn btn-outline-primary" href="ocupacion/@cliente.IdCliente">Ver</a></td>
+                            </tr>
+                        }
+                       </tbody>
+                </table>
+            </div>
+        </div>  
+    </div> 
+                 
+</EditForm>
+
+@code {
+
+    public string Nombre{get;set;} = "";
+    public int contador{get;set;} = 0;
+    
+    public List<Clientes> list {get;set;} = new List<Clientes>();
+
+public void Buscar(){
+    if(string.IsNullOrWhiteSpace(Nombre)){
+    list = ClientesBLL.GetList(c => true);
+    }
+    else{
+        list = ClientesBLL.GetList(c => Nombre.Contains(Nombre));
+       contador = list.Count();
+    }
+}
+
+}
